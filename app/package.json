@@ -1,0 +1,31 @@
+{
+  "name": "Node-NFC",
+  "version": "0.0.0",
+  "description": "Do stuff with NFC",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mixbe/Node-NFC.git"
+  },
+  "author": "MiX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixbe/Node-NFC/issues"
+  },
+  "homepage": "https://github.com/mixbe/Node-NFC",
+  "dependencies": {
+    "express": "^4.10.4",
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.3.3",
+    "morgan": "~1.3.0",
+    "serve-favicon": "~2.1.3",
+    "debug": "~2.0.0",
+    "ejs": "~0.8.5",
+    "stylus": "0.42.3",
+    "pn532": "~0.0.3",
+    "serialport": "^1.4.6"
+  }
+}
